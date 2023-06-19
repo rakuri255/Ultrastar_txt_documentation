@@ -2,13 +2,13 @@
 
 Encoding should be UTF8
 
-## Required Attributes
+## :warning: Mandatory Attributes
 
 ### TITLE
 
-> :warning: Mandatory
-
 The title of the song.
+
+<details><summary>App Support</summary>
 
 | App                     | Version                          | Supported          |
 | ----------------------- | -------------------------------- | ------------------ |
@@ -20,12 +20,14 @@ The title of the song.
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
 | UltraStar Play          | 0.7.0 (Pre-release) (2022-08-20) | :heavy_check_mark: |
+
+</details>
 
 ### ARTIST
 
-> :warning: Mandatory
-
 The artist of the song.
+
+<details><summary>App Support</summary>
 
 | App                     | Version                          | Supported          |
 | ----------------------- | -------------------------------- | ------------------ |
@@ -38,13 +40,15 @@ The artist of the song.
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
 | UltraStar Play          | 0.7.0 (Pre-release) (2022-08-20) | :heavy_check_mark: |
 
-### MP3
+</details>
 
-> :warning: Mandatory
+### MP3
 
 Filename of the audio file.
 See format support here: here
 
+<details><summary>App Support</summary>
+
 | App                     | Version                          | Supported          |
 | ----------------------- | -------------------------------- | ------------------ |
 | UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:    |
@@ -56,13 +60,15 @@ See format support here: here
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
 | UltraStar Play          | 0.7.0 (Pre-release) (2022-08-20) | :heavy_check_mark: |
 
-### BPM
+</details>
 
-> :warning: Mandatory
+### BPM
 
 Speed of the song in Ultrastar Beats Per Minute. Which is not the real song BPM.
 The UltraStar BPM information is a quarter of the real BPM.
 
+<details><summary>App Support</summary>
+
 | App                     | Version                          | Supported          |
 | ----------------------- | -------------------------------- | ------------------ |
 | UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:    |
@@ -73,12 +79,14 @@ The UltraStar BPM information is a quarter of the real BPM.
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
 | UltraStar Play          | 0.7.0 (Pre-release) (2022-08-20) | :heavy_check_mark: |
+
+</details>
 
 ### GAP
 
-> :warning: Mandatory
-
 Delay for the start the lyric in milliseconds
+
+<details><summary>App Support</summary>
 
 | App                     | Version                          | Supported          |
 | ----------------------- | -------------------------------- | ------------------ |
@@ -91,7 +99,9 @@ Delay for the start the lyric in milliseconds
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
 | UltraStar Play          | 0.7.0 (Pre-release) (2022-08-20) | :heavy_check_mark: |
 
-## Additional Header Information
+</details>
+
+## :information_source: Optional Attributes
 
 ### COVER
 
@@ -116,6 +126,8 @@ Path to cover. Should end with `*[CO].jpg`
 
 Path to background. Is shown when there is no video. Should with `*[BG].jpg`
 
+<details><summary>App Support</summary>
+
 | App                     | Version                          | Supported          |
 | ----------------------- | -------------------------------- | ------------------ |
 | UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:    |
@@ -127,13 +139,15 @@ Path to background. Is shown when there is no video. Should with `*[BG].jpg`
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
 | UltraStar Play          | 0.7.0 (Pre-release) (2022-08-20) | :heavy_check_mark: |
 
-### VIDEO
+</details>
 
-> :information_source: Optional
+### VIDEO
 
 Filename of the video file.
 The sound of the video is not played.
 See format support here: here
+
+<details><summary>App Support</summary>
 
 | App                     | Version                          | Supported          |
 | ----------------------- | -------------------------------- | ------------------ |
@@ -146,9 +160,9 @@ See format support here: here
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
 | UltraStar Play          | 0.7.0 (Pre-release) (2022-08-20) | :heavy_check_mark: |
 
-### VIDEOGAP
+</details>
 
-> :information_source: Optional
+### VIDEOGAP
 
 Delay for the start the video in milliseconds
 
@@ -160,29 +174,21 @@ Delay for the start the video in milliseconds
 ### YEAR
 ### START
 
-> :information_source: Optional
-
   Specifies from which second the song is played.
   Normaly used when the song has a long into that you want to skip.
 
 ### END
-
-> :information_source: Optional
 
   Specifies from which second the song will end.
   Normaly used when the song has a long outro that you want to skip.
 
 ### RESOLUTION
 
-> :information_source: Optional
-
   Changes the grid resolution of the editor.
   Only for the editor and nothing for singing.
 
 ### NOTESGAP
 ### RELATIVE
-
-> :information_source: Optional
 
   Specifies whether the timestamps start again from 0 after each line or not ("yes" means they start again from 0).
   If this line is missing, then the timestamps are absolute.
@@ -199,11 +205,11 @@ Delay for the start the video in milliseconds
 
 USDX - [USong.pas](https://github.com/UltraStar-Deluxe/USDX/blob/master/src/base/USong.pas#L1246)
 
-Additional Header Information
-
 ### P1 and P2
 
 Same as DUETSINGERP1 and DUETSINGERP2
+
+<details><summary>App Support</summary>
 
 | App                     | Version                          | Supported          |
 | ----------------------- | -------------------------------- | ------------------ |
@@ -216,13 +222,15 @@ Same as DUETSINGERP1 and DUETSINGERP2
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
 | UltraStar Play          | 0.7.0 (Pre-release) (2022-08-20) | :grey_question:    |
 
-US World Partiy - [USong.pas](https://github.com/ultrastares/ultrastar-worldparty/blob/master/src/base/USong.pas#L649)
+</details>
 
-Additional Header Information
+US World Partiy - [USong.pas](https://github.com/ultrastares/ultrastar-worldparty/blob/master/src/base/USong.pas#L649)
 
 ### FIXER
 
 name or names of song fixers
+
+<details><summary>App Support</summary>
 
 | App                     | Version                          | Supported          |
 | ----------------------- | -------------------------------- | ------------------ |
@@ -234,6 +242,8 @@ name or names of song fixers
 | Vocaluxe                | 0.41 (2020-03-10)                | :x:                |
 | Performous              | 1.2.0 (2022-03-27)               | :x:                |
 | UltraStar Play          | 0.7.0 (Pre-release) (2022-08-20) | :x:                |
+
+</details>
 
 Vocaluxe - [CSongLoader.cs](https://github.com/Vocaluxe/Vocaluxe/blob/develop/VocaluxeLib/Songs/CSongLoader.cs#L135)
 
