@@ -1,6 +1,6 @@
 # Ultrastar Txt Documentation
 
-Changes encoding to UTF8
+Encoding should be UTF8
 
 ## Required Attributes
 
