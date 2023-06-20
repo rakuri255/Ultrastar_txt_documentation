@@ -102,6 +102,10 @@ The UltraStar BPM information is a quarter of the real BPM.
 Delay for the start the lyric in milliseconds.
 Its used that the first word starts at 0. Otherwise the delay gap would be added to the start of the first line.
 
+```
+#GAP:12345
+```
+
 <details><summary>App Support</summary>
 
 | App                     | Version                          | Supported          |
@@ -246,6 +250,13 @@ The value of the GENRE attribute can be any text string that describes the genre
 
 ### EDITION
 
+Specifies the SingStar edition of the song. See here: [SingStar-Editions](https://github.com/bohning/usdb_syncer/wiki/SingStar-Editions)
+This information can be used to categorize songs by their edition.
+
+```
+#EDITION:SingStar Rocks! [DE]
+```
+
 <details><summary>App Support</summary>
 
 | App                     | Version                          | Supported       |
@@ -263,14 +274,12 @@ The value of the GENRE attribute can be any text string that describes the genre
 
 ### CREATOR
 
-- name or names of song creators
-
 Specifies the name of the person who created the ultrastar txt file. 
 This information can be used to give credit to the person who created the file.
 The value of the CREATOR attribute can be any text string that represents the name of the person who created the ultrastar txt file.
 
 ```
-#CREATOR:John Doe
+#CREATOR:UltraSinger [GitHub]
 ```
 
 <details><summary>App Support</summary>
@@ -406,6 +415,8 @@ Only for the editor and nothing for singing.
 
 ### NOTESGAP
 
+Todo: Unknown
+
 <details><summary>App Support</summary>
 
 | App                     | Version                          | Supported       |
@@ -422,8 +433,6 @@ Only for the editor and nothing for singing.
 </details>
 
 ### RELATIVE
-
-
 
 Specifies whether the note timings in the file are relative to the previous note or absolute. If this attribute is set to yes, the note timings are relative to the previous note. If it is set to no or not present, the note timings are absolute.
 If this line is missing, then the timestamps are absolute.
@@ -592,8 +601,6 @@ Specify the names of the singers for a duet song. These values can be used to di
 
 </details>
 
-USDX - [USong.pas](https://github.com/UltraStar-Deluxe/USDX/blob/master/src/base/USong.pas#L1246)
-
 ### P1 and P2
 
 Same as `DUETSINGERP1` and `DUETSINGERP2`
@@ -613,11 +620,12 @@ Same as `DUETSINGERP1` and `DUETSINGERP2`
 
 </details>
 
+USDX Source - [USong.pas](https://github.com/UltraStar-Deluxe/USDX/blob/master/src/base/USong.pas#L1246)
 US World Party Source: [USong.pas](https://github.com/ultrastares/ultrastar-worldparty/blob/master/src/base/USong.pas#L649)
 
 ### FIXER
 
-name or names of song fixers
+Specifies the name of the person who made changes to the ultrastar txt file but want to give credit to the person who initialy created the file in `CREATOR`.
 
 <details><summary>App Support</summary>
 
