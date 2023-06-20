@@ -199,6 +199,8 @@ Delay for the start the video in milliseconds
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question: |
 | UltraStar Play          | 0.7.0 (Pre-release) (2022-08-20) | :grey_question: |
 
+</details>
+
 ### GENRE
 
 <details><summary>App Support</summary>
