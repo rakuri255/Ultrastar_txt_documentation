@@ -8,6 +8,10 @@ Encoding should be UTF8
 
 The title of the song.
 
+```
+#TITLE:Song Title
+```
+
 <details><summary>App Support</summary>
 
 | App                     | Version                          | Supported          |
@@ -26,6 +30,10 @@ The title of the song.
 ### ARTIST
 
 The artist of the song.
+
+```
+#ARTIST:Artist
+```
 
 <details><summary>App Support</summary>
 
@@ -46,6 +54,10 @@ The artist of the song.
 
 Filename of the audio file.
 See format support here: here
+
+```
+#MP3:Artist - Title.mp3
+```
 
 <details><summary>App Support</summary>
 
@@ -146,6 +158,10 @@ Path to background. Is shown when there is no video. Should with `*[BG].jpg`
 Filename of the video file.
 The sound of the video is not played.
 See format support here: here
+
+```
+#VIDEO:Artist - Title.mp4
+```
 
 <details><summary>App Support</summary>
 
