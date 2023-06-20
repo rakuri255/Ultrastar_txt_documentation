@@ -1,4 +1,4 @@
-# Ultrastar Txt Documentation
+# Ultrastar txt Documentation
 
 Encoding should be UTF8
 
@@ -78,6 +78,10 @@ See format support here: here
 
 Speed of the song in Ultrastar Beats Per Minute. Which is not the real song BPM.
 The UltraStar BPM information is a quarter of the real BPM.
+
+```
+#BPM:400
+```
 
 <details><summary>App Support</summary>
 
@@ -508,7 +512,7 @@ Same as DUETSINGERP1 and DUETSINGERP2
 
 </details>
 
-US World Partiy - [USong.pas](https://github.com/ultrastares/ultrastar-worldparty/blob/master/src/base/USong.pas#L649)
+US World Party Source: [USong.pas](https://github.com/ultrastares/ultrastar-worldparty/blob/master/src/base/USong.pas#L649)
 
 ### FIXER
 
@@ -529,7 +533,7 @@ name or names of song fixers
 
 </details>
 
-Vocaluxe - [CSongLoader.cs](https://github.com/Vocaluxe/Vocaluxe/blob/develop/VocaluxeLib/Songs/CSongLoader.cs#L135)
+Vocaluxe Source: [CSongLoader.cs](https://github.com/Vocaluxe/Vocaluxe/blob/develop/VocaluxeLib/Songs/CSongLoader.cs#L135)
 
 - TITLE-ON-SORTING
 - ARTIST-ON-SORTING
@@ -546,7 +550,7 @@ Vocaluxe - [CSongLoader.cs](https://github.com/Vocaluxe/Vocaluxe/blob/develop/Vo
 - P1 and P2
   - Same as DUETSINGERP1 and DUETSINGERP2
 
-Performous - [song.cc](https://github.com/performous/performous/blob/master/game/song.cc)
+Performous Source: [song.cc](https://github.com/performous/performous/blob/master/game/song.cc)
 
 - txtFileFolder
 - txtFile
@@ -578,4 +582,4 @@ Performous - [song.cc](https://github.com/performous/performous/blob/master/game
 - guitarCoop
 - guitarRhythm
 
-Manager [UFiles.pas](https://github.com/UltraStar-Deluxe/USDX/blob/c56afde2d317feb9bee3196296e4d84234f4287b/src/base/UFiles.pas#L137)
+USDX Manager Source: [UFiles.pas](https://github.com/UltraStar-Deluxe/USDX/blob/c56afde2d317feb9bee3196296e4d84234f4287b/src/base/UFiles.pas#L137)
