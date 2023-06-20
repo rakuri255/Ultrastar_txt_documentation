@@ -16,13 +16,13 @@ The title of the song.
 
 | App                     | Version                          | Supported          |
 | ----------------------- | -------------------------------- | ------------------ |
-| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:    |
+| UltraStar               | 1.0.2 (2012-09-28)               | :heavy_check_mark: |
 | UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :heavy_check_mark: |
 | UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
-| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
+| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :heavy_check_mark: |
 | UltraStar World Party   | 21.02 (2021-02-07)               | :heavy_check_mark: |
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
-| Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
+| Performous              | 1.2.0 (2022-03-27)               | :heavy_check_mark: |
 | UltraStar Play          | 0.7.0 (Pre-release) (2022-08-20) | :heavy_check_mark: |
 
 </details>
@@ -39,13 +39,13 @@ The artist of the song.
 
 | App                     | Version                          | Supported          |
 | ----------------------- | -------------------------------- | ------------------ |
-| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:    |
+| UltraStar               | 1.0.2 (2012-09-28)               | :heavy_check_mark: |
 | UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :heavy_check_mark: |
 | UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
-| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
+| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :heavy_check_mark: |
 | UltraStar World Party   | 21.02 (2021-02-07)               | :heavy_check_mark: |
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
-| Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
+| Performous              | 1.2.0 (2022-03-27)               | :heavy_check_mark: |
 | UltraStar Play          | 0.7.0 (Pre-release) (2022-08-20) | :heavy_check_mark: |
 
 </details>
@@ -63,13 +63,13 @@ See format support here: here
 
 | App                     | Version                          | Supported          |
 | ----------------------- | -------------------------------- | ------------------ |
-| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:    |
+| UltraStar               | 1.0.2 (2012-09-28)               | :heavy_check_mark: |
 | UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :heavy_check_mark: |
 | UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
-| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
+| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :heavy_check_mark: |
 | UltraStar World Party   | 21.02 (2021-02-07)               | :heavy_check_mark: |
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
-| Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
+| Performous              | 1.2.0 (2022-03-27)               | :heavy_check_mark: |
 | UltraStar Play          | 0.7.0 (Pre-release) (2022-08-20) | :heavy_check_mark: |
 
 </details>
@@ -87,13 +87,13 @@ The UltraStar BPM information is a quarter of the real BPM.
 
 | App                     | Version                          | Supported          |
 | ----------------------- | -------------------------------- | ------------------ |
-| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:    |
+| UltraStar               | 1.0.2 (2012-09-28)               | :heavy_check_mark: |
 | UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :heavy_check_mark: |
 | UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
-| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
+| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :heavy_check_mark: |
 | UltraStar World Party   | 21.02 (2021-02-07)               | :heavy_check_mark: |
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
-| Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
+| Performous              | 1.2.0 (2022-03-27)               | :heavy_check_mark: |
 | UltraStar Play          | 0.7.0 (Pre-release) (2022-08-20) | :heavy_check_mark: |
 
 </details>
@@ -106,13 +106,13 @@ Delay for the start the lyric in milliseconds
 
 | App                     | Version                          | Supported          |
 | ----------------------- | -------------------------------- | ------------------ |
-| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:    |
+| UltraStar               | 1.0.2 (2012-09-28)               | :heavy_check_mark: |
 | UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :heavy_check_mark: |
 | UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
-| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
+| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :heavy_check_mark: |
 | UltraStar World Party   | 21.02 (2021-02-07)               | :heavy_check_mark: |
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
-| Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
+| Performous              | 1.2.0 (2022-03-27)               | :heavy_check_mark: |
 | UltraStar Play          | 0.7.0 (Pre-release) (2022-08-20) | :heavy_check_mark: |
 
 </details>
@@ -127,13 +127,13 @@ Path to cover. Should end with `*[CO].jpg`
 
 | App                     | Version                          | Supported          |
 | ----------------------- | -------------------------------- | ------------------ |
-| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:    |
-| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
+| UltraStar               | 1.0.2 (2012-09-28)               | :heavy_check_mark: |
+| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :heavy_check_mark: |
 | UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
-| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
+| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :heavy_check_mark: |
 | UltraStar World Party   | 21.02 (2021-02-07)               | :heavy_check_mark: |
-| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question:    |
-| Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
+| Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
+| Performous              | 1.2.0 (2022-03-27)               | :heavy_check_mark: |
 | UltraStar Play          | 0.7.0 (Pre-release) (2022-08-20) | :heavy_check_mark: |
 
 </details>
@@ -146,13 +146,13 @@ Path to background. Is shown when there is no video. Should with `*[BG].jpg`
 
 | App                     | Version                          | Supported          |
 | ----------------------- | -------------------------------- | ------------------ |
-| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:    |
-| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
+| UltraStar               | 1.0.2 (2012-09-28)               | :heavy_check_mark: |
+| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :heavy_check_mark: |
 | UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
-| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
+| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :heavy_check_mark: |
 | UltraStar World Party   | 21.02 (2021-02-07)               | :heavy_check_mark: |
-| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question:    |
-| Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
+| Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
+| Performous              | 1.2.0 (2022-03-27)               | :heavy_check_mark: |
 | UltraStar Play          | 0.7.0 (Pre-release) (2022-08-20) | :heavy_check_mark: |
 
 </details>
@@ -171,13 +171,13 @@ See format support here: here
 
 | App                     | Version                          | Supported          |
 | ----------------------- | -------------------------------- | ------------------ |
-| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:    |
-| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
+| UltraStar               | 1.0.2 (2012-09-28)               | :heavy_check_mark: |
+| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :heavy_check_mark: |
 | UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
-| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
+| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :heavy_check_mark: |
 | UltraStar World Party   | 21.02 (2021-02-07)               | :heavy_check_mark: |
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
-| Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
+| Performous              | 1.2.0 (2022-03-27)               | :heavy_check_mark: |
 | UltraStar Play          | 0.7.0 (Pre-release) (2022-08-20) | :heavy_check_mark: |
 
 </details>
@@ -185,6 +185,19 @@ See format support here: here
 ### VIDEOGAP
 
 Delay for the start the video in milliseconds
+
+<details><summary>App Support</summary>
+
+| App                     | Version                          | Supported       |
+| ----------------------- | -------------------------------- | --------------- |
+| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question: |
+| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question: |
+| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :grey_question: |
+| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question: |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question: |
+| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question: |
+| Performous              | 1.2.0 (2022-03-27)               | :grey_question: |
+| UltraStar Play          | 0.7.0 (Pre-release) (2022-08-20) | :grey_question: |
 
 ### GENRE
 
