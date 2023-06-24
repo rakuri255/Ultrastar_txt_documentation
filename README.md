@@ -176,7 +176,6 @@ This will be shown when there is no `VIDEO` available.
 | Performous              | 1.2.0 (2022-03-27)               | :heavy_check_mark: |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :heavy_check_mark: |
 | Yass                    | 2.4.3 (2023-03-18)               | :grey_question:    |
-| Yass                    | 2.4.3 (2023-03-18)               | :grey_question:    |
 
 </details>
 
@@ -306,6 +305,7 @@ The value of the CREATOR attribute can be any text string that represents the na
 | Vocaluxe                | 0.41 (2020-03-10)                | :grey_question:    |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question:    |
 
 </details>
 
@@ -502,6 +502,7 @@ Specifies the character encoding used in the txt file. This attribute can be use
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question:    |
 
 </details>
 
@@ -668,6 +669,7 @@ Specifies the name of the person who made changes to the ultrastar txt file but 
 | Vocaluxe                | 0.41 (2020-03-10)                | :x:                |
 | Performous              | 1.2.0 (2022-03-27)               | :x:                |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :x:                |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question:    |
 
 </details>
 
