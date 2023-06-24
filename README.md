@@ -347,11 +347,11 @@ The value of the YEAR attribute should be a four-digit number that represents th
 
 ### START
 
-START specifies the time in milliseconds from the beginning of the audio file at which the song starts. This value can be used to skip any silence or intro at the beginning of the audio file.
-The value should be positive integers that represent the start time of the song in milliseconds.
+START specifies the time in seconds from the beginning of the audio file at which the song starts. This value can be used to skip any silence or intro at the beginning of the audio file.
+The value should be positive integers that represent the start time of the song in seconds.
 
 ```
-#START:12345
+#START:123
 ```
 
 <details><summary>App Support</summary>
@@ -374,8 +374,9 @@ The value should be positive integers that represent the start time of the song 
 Specifies the time in milliseconds from the beginning of the audio file at which the song ends. This value can be used to stop playback before any silence or outro at the end of the audio file.
 The value should be positive integers that represent the end time of the song in milliseconds.
 
+Keep it simple, its just seconds + 000
 ```
-#END:67890
+#END:678000
 ```
 
 <details><summary>App Support</summary>
