@@ -462,6 +462,9 @@ If you now want to change from absolute to relative timestamps yourself, this me
 
 ### ENCODING
 
+:warning: Deprecated: The games should be able to detect the encoding themselves.
+
+For Vocaluxe there is a updated version that can detect the encoding itself. [Vocaluxe fork by flokuep](https://github.com/flokuep/Vocaluxe)
 Specifies the character encoding used in the txt file. This attribute can be used to ensure that special characters are displayed correctly.
 
 ```
@@ -470,16 +473,16 @@ Specifies the character encoding used in the txt file. This attribute can be use
 
 <details><summary>App Support</summary>
 
-| App                     | Version                          | Supported       |
-| ----------------------- | -------------------------------- | --------------- |
-| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question: |
-| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question: |
-| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :grey_question: |
-| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question: |
-| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question: |
-| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question: |
-| Performous              | 1.2.0 (2022-03-27)               | :grey_question: |
-| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question: |
+| App                     | Version                          | Supported          |
+| ----------------------- | -------------------------------- | ------------------ |
+| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:    |
+| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
+| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :grey_question:    |
+| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:    |
+| Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
+| Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
+| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
 
 </details>
 
