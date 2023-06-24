@@ -24,6 +24,7 @@ The title of the song. This is the song name that will appear in the song select
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
 | Performous              | 1.2.0 (2022-03-27)               | :heavy_check_mark: |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :heavy_check_mark: |
+| Yass                    | 2.4.3 (2023-03-18)               | :heavy_check_mark: |
 
 </details>
 
@@ -47,6 +48,7 @@ The artist of the song. This is the name of the person or group who performed th
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
 | Performous              | 1.2.0 (2022-03-27)               | :heavy_check_mark: |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :heavy_check_mark: |
+| Yass                    | 2.4.3 (2023-03-18)               | :heavy_check_mark: |
 
 </details>
 
@@ -70,6 +72,7 @@ Filename of the audio file. This is the file that contains the sound of the song
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
 | Performous              | 1.2.0 (2022-03-27)               | :heavy_check_mark: |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :heavy_check_mark: |
+| Yass                    | 2.4.3 (2023-03-18)               | :heavy_check_mark: |
 
 </details>
 
@@ -94,6 +97,7 @@ The UltraStar BPM information is a quarter of the real BPM.
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
 | Performous              | 1.2.0 (2022-03-27)               | :heavy_check_mark: |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :heavy_check_mark: |
+| Yass                    | 2.4.3 (2023-03-18)               | :heavy_check_mark: |
 
 </details>
 
@@ -118,6 +122,7 @@ Its used that the first word starts at 0. Otherwise the delay gap would be added
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
 | Performous              | 1.2.0 (2022-03-27)               | :heavy_check_mark: |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :heavy_check_mark: |
+| Yass                    | 2.4.3 (2023-03-18)               | :heavy_check_mark: |
 
 </details>
 
@@ -145,6 +150,7 @@ It should be in 1:1 apec ratio.
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
 | Performous              | 1.2.0 (2022-03-27)               | :heavy_check_mark: |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :heavy_check_mark: |
+| Yass                    | 2.4.3 (2023-03-18)               | :heavy_check_mark: |
 
 </details>
 
@@ -169,6 +175,8 @@ This will be shown when there is no `VIDEO` available.
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
 | Performous              | 1.2.0 (2022-03-27)               | :heavy_check_mark: |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :heavy_check_mark: |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question:    |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question:    |
 
 </details>
 
@@ -196,6 +204,7 @@ See format support here: here
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
 | Performous              | 1.2.0 (2022-03-27)               | :heavy_check_mark: |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :heavy_check_mark: |
+| Yass                    | 2.4.3 (2023-03-18)               | :heavy_check_mark: |
 
 </details>
 
@@ -221,6 +230,7 @@ This attribute is useful when the video and audio files are not perfectly synchr
 | Vocaluxe                | 0.41 (2020-03-10)                | :grey_question: |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question: |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question: |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question: |
 
 </details>
 
@@ -245,6 +255,7 @@ The value of the GENRE attribute can be any text string that describes the genre
 | Vocaluxe                | 0.41 (2020-03-10)                | :grey_question: |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question: |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question: |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question: |
 
 </details>
 
@@ -269,6 +280,7 @@ This information can be used to categorize songs by their edition.
 | Vocaluxe                | 0.41 (2020-03-10)                | :grey_question: |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question: |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question: |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question: |
 
 </details>
 
@@ -318,6 +330,7 @@ The value of the LANGUAGE attribute can be any text string that represents the l
 | Vocaluxe                | 0.41 (2020-03-10)                | :grey_question: |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question: |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question: |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question: |
 
 </details>
 
@@ -342,6 +355,7 @@ The value of the YEAR attribute should be a four-digit number that represents th
 | Vocaluxe                | 0.41 (2020-03-10)                | :grey_question: |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question: |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question: |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question: |
 
 </details>
 
@@ -366,6 +380,7 @@ The value should be positive integers that represent the start time of the song 
 | Vocaluxe                | 0.41 (2020-03-10)                | :grey_question: |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question: |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question: |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question: |
 
 </details>
 
@@ -391,6 +406,7 @@ Keep it simple, its just seconds + 000
 | Vocaluxe                | 0.41 (2020-03-10)                | :grey_question: |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question: |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question: |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question: |
 
 </details>
 
@@ -411,6 +427,7 @@ Only for the editor and nothing for singing.
 | Vocaluxe                | 0.41 (2020-03-10)                | :grey_question: |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question: |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question: |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question: |
 
 </details>
 
@@ -430,6 +447,7 @@ Todo: Unknown
 | Vocaluxe                | 0.41 (2020-03-10)                | :grey_question: |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question: |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question: |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question: |
 
 </details>
 
@@ -457,13 +475,13 @@ If you now want to change from absolute to relative timestamps yourself, this me
 | Vocaluxe                | 0.41 (2020-03-10)                | :grey_question: |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question: |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question: |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question: |
 
 </details>
 
 ### ENCODING
 
 :warning: Deprecated: The games should be able to detect the encoding themselves.
-
 For Vocaluxe there is a updated version that can detect the encoding itself. [Vocaluxe fork by flokuep](https://github.com/flokuep/Vocaluxe)
 
 Specifies the character encoding used in the txt file. This attribute can be used to ensure that special characters are displayed correctly.
@@ -507,6 +525,7 @@ Specifies the time in milliseconds from the beginning of the audio file at which
 | Vocaluxe                | 0.41 (2020-03-10)                | :grey_question: |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question: |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question: |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question: |
 
 </details>
 
@@ -532,6 +551,7 @@ Needs `MEDLEYENDBEAT`
 | Vocaluxe                | 0.41 (2020-03-10)                | :grey_question: |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question: |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question: |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question: |
 
 </details>
 
@@ -556,6 +576,7 @@ Needs `MEDLEYSTARTBEAT`
 | Vocaluxe                | 0.41 (2020-03-10)                | :grey_question: |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question: |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question: |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question: |
 
 </details>
 
@@ -579,6 +600,7 @@ Specifies whether UltraStar should automatically calculate the medley section of
 | Vocaluxe                | 0.41 (2020-03-10)                | :grey_question: |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question: |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question: |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question: |
 
 </details>
 
@@ -603,6 +625,7 @@ Specify the names of the singers for a duet song. These values can be used to di
 | Vocaluxe                | 0.41 (2020-03-10)                | :grey_question:    |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :heavy_check_mark: |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question:    |
 
 </details>
 
@@ -622,6 +645,7 @@ Same as `DUETSINGERP1` and `DUETSINGERP2`
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :heavy_check_mark: |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question:    |
 
 </details>
 
