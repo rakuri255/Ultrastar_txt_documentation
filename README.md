@@ -465,6 +465,7 @@ If you now want to change from absolute to relative timestamps yourself, this me
 :warning: Deprecated: The games should be able to detect the encoding themselves.
 
 For Vocaluxe there is a updated version that can detect the encoding itself. [Vocaluxe fork by flokuep](https://github.com/flokuep/Vocaluxe)
+
 Specifies the character encoding used in the txt file. This attribute can be used to ensure that special characters are displayed correctly.
 
 ```
