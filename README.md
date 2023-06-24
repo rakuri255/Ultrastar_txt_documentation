@@ -284,16 +284,16 @@ The value of the CREATOR attribute can be any text string that represents the na
 
 <details><summary>App Support</summary>
 
-| App                     | Version                          | Supported       |
-| ----------------------- | -------------------------------- | --------------- |
-| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question: |
-| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question: |
-| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :grey_question: |
-| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question: |
-| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question: |
-| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question: |
-| Performous              | 1.2.0 (2022-03-27)               | :grey_question: |
-| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question: |
+| App                     | Version                          | Supported          |
+| ----------------------- | -------------------------------- | ------------------ |
+| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:    |
+| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
+| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :grey_question:    |
+| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :heavy_check_mark: |
+| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question:    |
+| Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
+| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
 
 </details>
 
