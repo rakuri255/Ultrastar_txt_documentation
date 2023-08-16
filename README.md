@@ -267,7 +267,7 @@ R 0 1 8 Rap
 | UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:     |
 | UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark:  |
 | UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:     |
-| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:     |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :heavy_check_mark:  |
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_equals_sign: | Is Freestyle |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question:     |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:     |
@@ -291,7 +291,7 @@ G 0 1 8 RapGolden
 | UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:     |
 | UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark:  |
 | UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:     |
-| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:     |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :heavy_check_mark:  |
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_equals_sign: | Is Freestyle |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question:     |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:     |
@@ -423,7 +423,7 @@ This attribute is useful when the video and audio files are not perfectly synchr
 | UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
 | UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
 | UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
-| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:    |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :heavy_check_mark: |
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
@@ -448,7 +448,7 @@ The value of the GENRE attribute can be any text string that describes the genre
 | UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
 | UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
 | UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
-| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:    |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :heavy_check_mark: |
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
@@ -473,7 +473,7 @@ This information can be used to categorize songs by their edition.
 | UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
 | UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
 | UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
-| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:    |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :heavy_check_mark: |
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
@@ -524,7 +524,7 @@ The value of the LANGUAGE attribute can be any text string that represents the l
 | UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
 | UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
 | UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
-| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:    |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :heavy_check_mark: |
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
@@ -549,7 +549,7 @@ The value of the YEAR attribute should be a four-digit number that represents th
 | UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
 | UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
 | UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
-| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:    |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :heavy_check_mark: |
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
@@ -574,7 +574,7 @@ The value should be positive integers that represent the start time of the song 
 | UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
 | UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
 | UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
-| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:    |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :heavy_check_mark: |
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
@@ -601,7 +601,7 @@ Keep it simple, its just seconds + 000
 | UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
 | UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
 | UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
-| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:    |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :heavy_check_mark: |
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
@@ -622,7 +622,7 @@ Only for the editor and nothing for singing.
 | UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
 | UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
 | UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
-| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:    |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :x:                |
 | Vocaluxe                | 0.41 (2020-03-10)                | :x:                |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
@@ -642,7 +642,7 @@ Todo: Unknown
 | UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
 | UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
 | UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
-| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:    |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :x:                |
 | Vocaluxe                | 0.41 (2020-03-10)                | :x:                |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
@@ -697,7 +697,7 @@ Specifies the character encoding used in the txt file. This attribute can be use
 | UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
 | UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
 | UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
-| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:    |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :heavy_check_mark: |
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
@@ -746,7 +746,7 @@ Needs `MEDLEYENDBEAT`
 | UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
 | UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
 | UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
-| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:    |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :heavy_check_mark: |
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
@@ -771,7 +771,7 @@ Needs `MEDLEYSTARTBEAT`
 | UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
 | UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
 | UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
-| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:    |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :heavy_check_mark: |
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
@@ -795,7 +795,7 @@ Specifies whether UltraStar should automatically calculate the medley section of
 | UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
 | UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
 | UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
-| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:    |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :x:                |
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
@@ -810,6 +810,8 @@ Specify the names of the singers for a duet song. These values can be used to di
 ```
 #DUETSINGERP1:John
 #DUETSINGERP2:Jane
+#DUETSINGERP3:Tina
+...
 ```
 
 <details><summary>App Support</summary>
@@ -820,7 +822,7 @@ Specify the names of the singers for a duet song. These values can be used to di
 | UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
 | UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
 | UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
-| UltraStar World Party   | 21.02 (2021-02-07)               | :heavy_check_mark: |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :heavy_check_mark: | up to 2 singers |
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :heavy_check_mark: |
