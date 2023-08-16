@@ -101,7 +101,7 @@ The UltraStar BPM information is a quarter of the real BPM.
 
 </details>
 
-## Notes
+### Notes
 
 The sing line is defined so that it has the `style`, `start_time`, `duration`, `pitch` and `lyric`.
 
@@ -118,9 +118,9 @@ style start_time duration pitch lyric
 : 10 10 10 lyric
 ```
 
-### Styles
+#### Styles
 
-#### Normal `:`
+##### Normal `:`
 
 The normal note.
 
@@ -168,7 +168,7 @@ The golden note. Gives twice the point of a normal point
 
 </details>
 
-#### Freestyle `F`
+##### Freestyle `F`
 
 Note that will NOT be scored.
 
@@ -192,7 +192,7 @@ F 0 1 8 Freestyle
 
 </details>
 
-#### Rap `R`
+##### Rap `R`
 
 Rap note
 
@@ -216,7 +216,7 @@ R 0 1 8 Rap
 
 </details>
 
-#### Rap Golden `G`
+##### Rap Golden `G`
 
 Golden Rap note. Gives twice the point of a rap point
 
