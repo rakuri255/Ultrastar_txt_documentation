@@ -105,7 +105,7 @@ The UltraStar BPM information is a quarter of the real BPM.
 
 The sing line is defined so that it has the `style`, `start_time`, `duration`, `pitch` and `lyric`.
 
-- For the syles see below.
+- For the syles see [Styles](#Styles).
 - The `start_time` and `duration` must be calculated against the `BPM`, `GAP` and `Relative`. Is a beat number.
 - The pitch describes the note as a number. 0 is the note C4
 - Lyric is the part word
