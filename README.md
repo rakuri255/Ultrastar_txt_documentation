@@ -44,6 +44,7 @@ Encoding should be UTF8
   - [Special](#special)
     - [Multiple](#multiple)
       - [ALBUM](#album)
+      - [VERSION](#version)
       - [LENGTH](#length)
     - [UltraStar World Party](#ultrastar-world-party)
       - [FIXER](#fixer)
@@ -51,7 +52,6 @@ Encoding should be UTF8
       - [TITLE-ON-SORTING](#title-on-sorting)
       - [ARTIST-ON-SORTING](#artist-on-sorting)
       - [AUTHOR and AUTOR](#author-and-autor)
-      - [VERSION](#version)
       - [SOURCE and YOUTUBE](#source-and-youtube)
       - [COMMENT](#comment)
       - [VIDEOASPECT](#videoaspect)
@@ -872,6 +872,26 @@ Todo: Unknown
 
 </details>
 
+#### VERSION
+
+Todo: Unknown
+
+<details><summary>App Support</summary>
+
+| App                     | Version                          | Supported          |
+| ----------------------- | -------------------------------- | ------------------ |
+| UltraStar               | 1.0.2 (2012-09-28)               | :x:                |
+| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :x:                |
+| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :x:                |
+| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :x:                |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :x:                |
+| Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
+| Performous              | 1.2.0 (2022-03-27)               | :x:                |
+| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :x:                |
+| Yass                    | 2.4.3 (2023-03-18)               | :heavy_check_mark:                |
+
+</details>
+
 #### LENGTH
 
 Todo: Unknown
@@ -959,26 +979,6 @@ Todo: Unknown
 #### AUTHOR and AUTOR
 
 Same as CREATOR
-
-<details><summary>App Support</summary>
-
-| App                     | Version                          | Supported          |
-| ----------------------- | -------------------------------- | ------------------ |
-| UltraStar               | 1.0.2 (2012-09-28)               | :x:                |
-| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :x:                |
-| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :x:                |
-| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :x:                |
-| UltraStar World Party   | 21.02 (2021-02-07)               | :x:                |
-| Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
-| Performous              | 1.2.0 (2022-03-27)               | :x:                |
-| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :x:                |
-| Yass                    | 2.4.3 (2023-03-18)               | :x:                |
-
-</details>
-
-#### VERSION
-
-Todo: Unknown
 
 <details><summary>App Support</summary>
 
@@ -1158,4 +1158,4 @@ USDX Manager Source: [UFiles.pas](https://github.com/UltraStar-Deluxe/USDX/blob/
 - USDX Source - [USong.pas](https://github.com/UltraStar-Deluxe/USDX/blob/master/src/base/USong.pas#L1246)
 - US World Party Source: [USong.pas](https://github.com/ultrastares/ultrastar-worldparty/blob/master/src/base/USong.pas#L649)
 - Vocaluxe Source: [CSongLoader.cs](https://github.com/Vocaluxe/Vocaluxe/blob/develop/VocaluxeLib/Songs/CSongLoader.cs#L135)
-- Yass: [YassSong](https://github.com/SarutaSan72/Yass/blob/master/src/yass/YassSong.java), [YassNote](https://github.com/SarutaSan72/Yass/blob/master/src/yass/renderer/YassNote.java), [YassPropertoes](https://github.com/SarutaSan72/Yass/blob/master/src/yass/YassProperties.java)
+- Yass: [YassSong](https://github.com/SarutaSan72/Yass/blob/master/src/yass/YassSong.java), [YassNote](https://github.com/SarutaSan72/Yass/blob/master/src/yass/renderer/YassNote.java), [YassSongList](https://github.com/SarutaSan72/Yass/blob/master/src/yass/YassSongList.java#L3260)
