@@ -197,22 +197,22 @@ F 0 1 8 Freestyle
 Rap note
 
 ```
-R 0 1 8 Freestyle
+R 0 1 8 Rap
 ```
 
 <details><summary>App Support</summary>
 
-| App                     | Version                          | Supported          |
-| ----------------------- | -------------------------------- | ------------------ |
-| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:    |
-| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
-| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
-| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
-| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:    |
-| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question:    |
-| Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
-| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
-| Yass                    | 2.4.3 (2023-03-18)               | :grey_question:    |
+| App                     | Version                          | Supported           | Comment      |
+| ----------------------- | -------------------------------- | ------------------- | ------------ |
+| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:     |
+| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:     |
+| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark:  |
+| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:     |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:     |
+| Vocaluxe                | 0.41 (2020-03-10)                | :heavy_equals_sign: | Is Freestyle |
+| Performous              | 1.2.0 (2022-03-27)               | :grey_question:     |
+| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:     |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question:     |
 
 </details>
 
@@ -221,22 +221,22 @@ R 0 1 8 Freestyle
 Golden Rap note. Gives twice the point of a rap point
 
 ```
-G 0 1 8 Freestyle
+G 0 1 8 RapGolden
 ```
 
 <details><summary>App Support</summary>
 
-| App                     | Version                          | Supported          |
-| ----------------------- | -------------------------------- | ------------------ |
-| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:    |
-| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
-| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
-| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
-| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:    |
-| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question:    |
-| Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
-| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
-| Yass                    | 2.4.3 (2023-03-18)               | :grey_question:    |
+| App                     | Version                          | Supported           | Comment      |
+| ----------------------- | -------------------------------- | ------------------- | ------------ |
+| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:     |
+| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:     |
+| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark:  |
+| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:     |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:     |
+| Vocaluxe                | 0.41 (2020-03-10)                | :heavy_equals_sign: | Is Freestyle |
+| Performous              | 1.2.0 (2022-03-27)               | :grey_question:     |
+| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:     |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question:     |
 
 </details>
 
@@ -612,7 +612,7 @@ If you now want to change from absolute to relative timestamps yourself, this me
 | UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
 | UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
 | UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:    |
-| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question:    |
+| Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
 | Yass                    | 2.4.3 (2023-03-18)               | :grey_question:    |
