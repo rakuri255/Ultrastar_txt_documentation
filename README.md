@@ -271,7 +271,7 @@ R 0 1 8 Rap
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_equals_sign: | Is Freestyle |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question:     |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:     |
-| Yass                    | 2.4.3 (2023-03-18)               | :x:                 |
+| Yass                    | 2.4.3 (2023-03-18)               | :heavy_check_mark:  |
 
 </details>
 
@@ -295,7 +295,7 @@ G 0 1 8 RapGolden
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_equals_sign: | Is Freestyle |
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question:     |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:     |
-| Yass                    | 2.4.3 (2023-03-18)               | :x:                 |
+| Yass                    | 2.4.3 (2023-03-18)               | :heavy_check_mark:  |
 
 </details>
 
@@ -888,7 +888,7 @@ Todo: Unknown
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
 | Performous              | 1.2.0 (2022-03-27)               | :x:                |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :x:                |
-| Yass                    | 2.4.3 (2023-03-18)               | :heavy_check_mark:                |
+| Yass                    | 2.4.3 (2023-03-18)               | :heavy_check_mark: |
 
 </details>
 
