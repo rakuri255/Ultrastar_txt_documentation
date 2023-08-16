@@ -101,6 +101,147 @@ The UltraStar BPM information is a quarter of the real BPM.
 
 </details>
 
+## Notes
+
+The sing line is defined so that it has the `style`, `start_time`, `duration`, `pitch` and `lyric`.
+
+- For the syles see below.
+- The `start_time` and `duration` must be calculated against the `BPM`, `GAP` and `Relative`. Is a beat number.
+- The pitch describes the note as a number. 0 is the note C4
+- Lyric is the part word
+
+```
+style start_time duration pitch lyric
+```
+
+```
+: 10 10 10 lyric
+```
+
+### Styles
+
+#### Normal `:`
+
+The normal note.
+
+```
+: 0 1 8 Normal
+```
+
+<details><summary>App Support</summary>
+
+| App                     | Version                          | Supported          |
+| ----------------------- | -------------------------------- | ------------------ |
+| UltraStar               | 1.0.2 (2012-09-28)               | :heavy_check_mark: |
+| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :heavy_check_mark: |
+| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
+| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :heavy_check_mark: |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :heavy_check_mark: |
+| Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
+| Performous              | 1.2.0 (2022-03-27)               | :heavy_check_mark: |
+| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :heavy_check_mark: |
+| Yass                    | 2.4.3 (2023-03-18)               | :heavy_check_mark: |
+
+</details>
+
+#### Golden `*`
+
+The golden note. Gives twice the point of a normal point
+
+```
+* 0 1 8 Golden
+```
+
+<details><summary>App Support</summary>
+
+| App                     | Version                          | Supported          |
+| ----------------------- | -------------------------------- | ------------------ |
+| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:    |
+| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
+| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
+| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :heavy_check_mark: |
+| Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
+| Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
+| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question:    |
+
+</details>
+
+#### Freestyle `F`
+
+Note that will NOT be scored.
+
+```
+F 0 1 8 Freestyle
+```
+
+<details><summary>App Support</summary>
+
+| App                     | Version                          | Supported          |
+| ----------------------- | -------------------------------- | ------------------ |
+| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:    |
+| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
+| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
+| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :heavy_check_mark: |
+| Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
+| Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
+| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question:    |
+
+</details>
+
+#### Rap `R`
+
+Rap note
+
+```
+R 0 1 8 Freestyle
+```
+
+<details><summary>App Support</summary>
+
+| App                     | Version                          | Supported          |
+| ----------------------- | -------------------------------- | ------------------ |
+| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:    |
+| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
+| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
+| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:    |
+| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question:    |
+| Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
+| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question:    |
+
+</details>
+
+#### Rap Golden `G`
+
+Golden Rap note. Gives twice the point of a rap point
+
+```
+G 0 1 8 Freestyle
+```
+
+<details><summary>App Support</summary>
+
+| App                     | Version                          | Supported          |
+| ----------------------- | -------------------------------- | ------------------ |
+| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:    |
+| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
+| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
+| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:    |
+| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question:    |
+| Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
+| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question:    |
+
+</details>
+
+## :information_source: Optional Attributes
+
 ### GAP
 
 Delay for the start the lyric in milliseconds.
@@ -125,8 +266,6 @@ Its used that the first word starts at 0. Otherwise the delay gap would be added
 | Yass                    | 2.4.3 (2023-03-18)               | :heavy_check_mark: |
 
 </details>
-
-## :information_source: Optional Attributes
 
 ### COVER
 
@@ -209,7 +348,7 @@ See format support here: here
 
 ### VIDEOGAP
 
-Specifies the delay in milliseconds between the start of the video and the start of the song. 
+Specifies the delay in milliseconds between the start of the video and the start of the song.
 This value can be used to synchronize the video with the music.
 This attribute is useful when the video and audio files are not perfectly synchronized and you need to adjust the timing of the video to match the audio. By setting a positive or negative value for VIDEOGAP, you can delay or advance the start of the video relative to the start of the song.
 
@@ -219,17 +358,17 @@ This attribute is useful when the video and audio files are not perfectly synchr
 
 <details><summary>App Support</summary>
 
-| App                     | Version                          | Supported       |
-| ----------------------- | -------------------------------- | --------------- |
-| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question: |
-| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question: |
-| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :grey_question: |
-| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question: |
-| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question: |
-| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question: |
-| Performous              | 1.2.0 (2022-03-27)               | :grey_question: |
-| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question: |
-| Yass                    | 2.4.3 (2023-03-18)               | :grey_question: |
+| App                     | Version                          | Supported          |
+| ----------------------- | -------------------------------- | ------------------ |
+| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:    |
+| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
+| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
+| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:    |
+| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question:    |
+| Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
+| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question:    |
 
 </details>
 
@@ -244,17 +383,17 @@ The value of the GENRE attribute can be any text string that describes the genre
 
 <details><summary>App Support</summary>
 
-| App                     | Version                          | Supported       |
-| ----------------------- | -------------------------------- | --------------- |
-| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question: |
-| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question: |
-| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :grey_question: |
-| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question: |
-| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question: |
-| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question: |
-| Performous              | 1.2.0 (2022-03-27)               | :grey_question: |
-| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question: |
-| Yass                    | 2.4.3 (2023-03-18)               | :grey_question: |
+| App                     | Version                          | Supported          |
+| ----------------------- | -------------------------------- | ------------------ |
+| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:    |
+| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
+| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
+| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:    |
+| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question:    |
+| Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
+| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question:    |
 
 </details>
 
@@ -269,23 +408,23 @@ This information can be used to categorize songs by their edition.
 
 <details><summary>App Support</summary>
 
-| App                     | Version                          | Supported       |
-| ----------------------- | -------------------------------- | --------------- |
-| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question: |
-| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question: |
-| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :grey_question: |
-| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question: |
-| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question: |
-| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question: |
-| Performous              | 1.2.0 (2022-03-27)               | :grey_question: |
-| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question: |
-| Yass                    | 2.4.3 (2023-03-18)               | :grey_question: |
+| App                     | Version                          | Supported          |
+| ----------------------- | -------------------------------- | ------------------ |
+| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:    |
+| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
+| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
+| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:    |
+| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question:    |
+| Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
+| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question:    |
 
 </details>
 
 ### CREATOR
 
-Specifies the name of the person who created the ultrastar txt file. 
+Specifies the name of the person who created the ultrastar txt file.
 This information can be used to give credit to the person who created the file.
 The value of the CREATOR attribute can be any text string that represents the name of the person who created the ultrastar txt file.
 
@@ -299,7 +438,7 @@ The value of the CREATOR attribute can be any text string that represents the na
 | ----------------------- | -------------------------------- | ------------------ |
 | UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:    |
 | UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
-| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :grey_question:    |
+| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
 | UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
 | UltraStar World Party   | 21.02 (2021-02-07)               | :heavy_check_mark: |
 | Vocaluxe                | 0.41 (2020-03-10)                | :grey_question:    |
@@ -320,17 +459,17 @@ The value of the LANGUAGE attribute can be any text string that represents the l
 
 <details><summary>App Support</summary>
 
-| App                     | Version                          | Supported       |
-| ----------------------- | -------------------------------- | --------------- |
-| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question: |
-| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question: |
-| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :grey_question: |
-| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question: |
-| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question: |
-| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question: |
-| Performous              | 1.2.0 (2022-03-27)               | :grey_question: |
-| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question: |
-| Yass                    | 2.4.3 (2023-03-18)               | :grey_question: |
+| App                     | Version                          | Supported          |
+| ----------------------- | -------------------------------- | ------------------ |
+| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:    |
+| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
+| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
+| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:    |
+| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question:    |
+| Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
+| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question:    |
 
 </details>
 
@@ -345,17 +484,17 @@ The value of the YEAR attribute should be a four-digit number that represents th
 
 <details><summary>App Support</summary>
 
-| App                     | Version                          | Supported       |
-| ----------------------- | -------------------------------- | --------------- |
-| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question: |
-| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question: |
-| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :grey_question: |
-| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question: |
-| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question: |
-| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question: |
-| Performous              | 1.2.0 (2022-03-27)               | :grey_question: |
-| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question: |
-| Yass                    | 2.4.3 (2023-03-18)               | :grey_question: |
+| App                     | Version                          | Supported          |
+| ----------------------- | -------------------------------- | ------------------ |
+| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:    |
+| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
+| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
+| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:    |
+| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question:    |
+| Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
+| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question:    |
 
 </details>
 
@@ -370,17 +509,17 @@ The value should be positive integers that represent the start time of the song 
 
 <details><summary>App Support</summary>
 
-| App                     | Version                          | Supported       |
-| ----------------------- | -------------------------------- | --------------- |
-| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question: |
-| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question: |
-| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :grey_question: |
-| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question: |
-| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question: |
-| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question: |
-| Performous              | 1.2.0 (2022-03-27)               | :grey_question: |
-| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question: |
-| Yass                    | 2.4.3 (2023-03-18)               | :grey_question: |
+| App                     | Version                          | Supported          |
+| ----------------------- | -------------------------------- | ------------------ |
+| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:    |
+| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
+| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
+| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:    |
+| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question:    |
+| Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
+| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question:    |
 
 </details>
 
@@ -390,23 +529,24 @@ Specifies the time in milliseconds from the beginning of the audio file at which
 The value should be positive integers that represent the end time of the song in milliseconds.
 
 Keep it simple, its just seconds + 000
+
 ```
 #END:678000
 ```
 
 <details><summary>App Support</summary>
 
-| App                     | Version                          | Supported       |
-| ----------------------- | -------------------------------- | --------------- |
-| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question: |
-| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question: |
-| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :grey_question: |
-| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question: |
-| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question: |
-| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question: |
-| Performous              | 1.2.0 (2022-03-27)               | :grey_question: |
-| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question: |
-| Yass                    | 2.4.3 (2023-03-18)               | :grey_question: |
+| App                     | Version                          | Supported          |
+| ----------------------- | -------------------------------- | ------------------ |
+| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:    |
+| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
+| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
+| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:    |
+| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question:    |
+| Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
+| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question:    |
 
 </details>
 
@@ -417,17 +557,17 @@ Only for the editor and nothing for singing.
 
 <details><summary>App Support</summary>
 
-| App                     | Version                          | Supported       |
-| ----------------------- | -------------------------------- | --------------- |
-| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question: |
-| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question: |
-| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :grey_question: |
-| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question: |
-| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question: |
-| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question: |
-| Performous              | 1.2.0 (2022-03-27)               | :grey_question: |
-| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question: |
-| Yass                    | 2.4.3 (2023-03-18)               | :grey_question: |
+| App                     | Version                          | Supported          |
+| ----------------------- | -------------------------------- | ------------------ |
+| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:    |
+| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
+| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
+| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:    |
+| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question:    |
+| Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
+| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question:    |
 
 </details>
 
@@ -437,17 +577,17 @@ Todo: Unknown
 
 <details><summary>App Support</summary>
 
-| App                     | Version                          | Supported       |
-| ----------------------- | -------------------------------- | --------------- |
-| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question: |
-| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question: |
-| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :grey_question: |
-| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question: |
-| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question: |
-| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question: |
-| Performous              | 1.2.0 (2022-03-27)               | :grey_question: |
-| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question: |
-| Yass                    | 2.4.3 (2023-03-18)               | :grey_question: |
+| App                     | Version                          | Supported          |
+| ----------------------- | -------------------------------- | ------------------ |
+| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:    |
+| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
+| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
+| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:    |
+| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question:    |
+| Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
+| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question:    |
 
 </details>
 
@@ -465,17 +605,17 @@ If you now want to change from absolute to relative timestamps yourself, this me
 
 <details><summary>App Support</summary>
 
-| App                     | Version                          | Supported       |
-| ----------------------- | -------------------------------- | --------------- |
-| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question: |
-| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question: |
-| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :grey_question: |
-| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question: |
-| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question: |
-| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question: |
-| Performous              | 1.2.0 (2022-03-27)               | :grey_question: |
-| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question: |
-| Yass                    | 2.4.3 (2023-03-18)               | :grey_question: |
+| App                     | Version                          | Supported          |
+| ----------------------- | -------------------------------- | ------------------ |
+| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:    |
+| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
+| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
+| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:    |
+| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question:    |
+| Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
+| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question:    |
 
 </details>
 
@@ -496,7 +636,7 @@ Specifies the character encoding used in the txt file. This attribute can be use
 | ----------------------- | -------------------------------- | ------------------ |
 | UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:    |
 | UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
-| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :grey_question:    |
+| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
 | UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
 | UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:    |
 | Vocaluxe                | 0.41 (2020-03-10)                | :heavy_check_mark: |
@@ -516,17 +656,17 @@ Specifies the time in milliseconds from the beginning of the audio file at which
 
 <details><summary>App Support</summary>
 
-| App                     | Version                          | Supported       |
-| ----------------------- | -------------------------------- | --------------- |
-| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question: |
-| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question: |
-| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :grey_question: |
-| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question: |
-| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question: |
-| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question: |
-| Performous              | 1.2.0 (2022-03-27)               | :grey_question: |
-| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question: |
-| Yass                    | 2.4.3 (2023-03-18)               | :grey_question: |
+| App                     | Version                          | Supported          |
+| ----------------------- | -------------------------------- | ------------------ |
+| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:    |
+| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
+| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
+| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:    |
+| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question:    |
+| Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
+| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question:    |
 
 </details>
 
@@ -539,20 +679,19 @@ Needs `MEDLEYENDBEAT`
 #MEDLEYSTARTBEAT:10
 ```
 
-
 <details><summary>App Support</summary>
 
-| App                     | Version                          | Supported       |
-| ----------------------- | -------------------------------- | --------------- |
-| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question: |
-| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question: |
-| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :grey_question: |
-| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question: |
-| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question: |
-| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question: |
-| Performous              | 1.2.0 (2022-03-27)               | :grey_question: |
-| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question: |
-| Yass                    | 2.4.3 (2023-03-18)               | :grey_question: |
+| App                     | Version                          | Supported          |
+| ----------------------- | -------------------------------- | ------------------ |
+| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:    |
+| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
+| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
+| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:    |
+| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question:    |
+| Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
+| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question:    |
 
 </details>
 
@@ -567,17 +706,17 @@ Needs `MEDLEYSTARTBEAT`
 
 <details><summary>App Support</summary>
 
-| App                     | Version                          | Supported       |
-| ----------------------- | -------------------------------- | --------------- |
-| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question: |
-| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question: |
-| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :grey_question: |
-| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question: |
-| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question: |
-| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question: |
-| Performous              | 1.2.0 (2022-03-27)               | :grey_question: |
-| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question: |
-| Yass                    | 2.4.3 (2023-03-18)               | :grey_question: |
+| App                     | Version                          | Supported          |
+| ----------------------- | -------------------------------- | ------------------ |
+| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:    |
+| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
+| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
+| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:    |
+| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question:    |
+| Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
+| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question:    |
 
 </details>
 
@@ -591,17 +730,17 @@ Specifies whether UltraStar should automatically calculate the medley section of
 
 <details><summary>App Support</summary>
 
-| App                     | Version                          | Supported       |
-| ----------------------- | -------------------------------- | --------------- |
-| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question: |
-| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question: |
-| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :grey_question: |
-| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question: |
-| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question: |
-| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question: |
-| Performous              | 1.2.0 (2022-03-27)               | :grey_question: |
-| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question: |
-| Yass                    | 2.4.3 (2023-03-18)               | :grey_question: |
+| App                     | Version                          | Supported          |
+| ----------------------- | -------------------------------- | ------------------ |
+| UltraStar               | 1.0.2 (2012-09-28)               | :grey_question:    |
+| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :grey_question:    |
+| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :heavy_check_mark: |
+| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :grey_question:    |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :grey_question:    |
+| Vocaluxe                | 0.41 (2020-03-10)                | :grey_question:    |
+| Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
+| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question:    |
+| Yass                    | 2.4.3 (2023-03-18)               | :grey_question:    |
 
 </details>
 
@@ -649,9 +788,6 @@ Same as `DUETSINGERP1` and `DUETSINGERP2`
 | Yass                    | 2.4.3 (2023-03-18)               | :grey_question:    |
 
 </details>
-
-USDX Source - [USong.pas](https://github.com/UltraStar-Deluxe/USDX/blob/master/src/base/USong.pas#L1246)
-US World Party Source: [USong.pas](https://github.com/ultrastares/ultrastar-worldparty/blob/master/src/base/USong.pas#L649)
 
 ### FIXER
 
@@ -723,3 +859,8 @@ Performous Source: [song.cc](https://github.com/performous/performous/blob/maste
 - guitarRhythm
 
 USDX Manager Source: [UFiles.pas](https://github.com/UltraStar-Deluxe/USDX/blob/c56afde2d317feb9bee3196296e4d84234f4287b/src/base/UFiles.pas#L137)
+
+## Source
+
+USDX Source - [USong.pas](https://github.com/UltraStar-Deluxe/USDX/blob/master/src/base/USong.pas#L1246)
+US World Party Source: [USong.pas](https://github.com/ultrastares/ultrastar-worldparty/blob/master/src/base/USong.pas#L649)
