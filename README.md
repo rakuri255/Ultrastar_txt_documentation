@@ -61,6 +61,7 @@ Encoding should be UTF8
       - [ID](#id)
     - [UltraStar Play](#ultrastar-play)
       - [PreviewEnd](#previewend)
+    - [Performous](#performous)
   - [Source](#source)
 
 ## :warning: Mandatory Attributes
@@ -1145,7 +1146,7 @@ Todo: Unknown
 
 </details>
 
-Performous Source: [song.cc](https://github.com/performous/performous/blob/master/game/song.cc)
+### Performous
 
 - txtFileFolder
 - txtFile
@@ -1177,8 +1178,6 @@ Performous Source: [song.cc](https://github.com/performous/performous/blob/maste
 - guitarCoop
 - guitarRhythm
 
-USDX Manager Source: [UFiles.pas](https://github.com/UltraStar-Deluxe/USDX/blob/c56afde2d317feb9bee3196296e4d84234f4287b/src/base/UFiles.pas#L137)
-
 ## Source
 
 - USDX Source - [USong.pas](https://github.com/UltraStar-Deluxe/USDX/blob/master/src/base/USong.pas#L1246)
@@ -1186,3 +1185,4 @@ USDX Manager Source: [UFiles.pas](https://github.com/UltraStar-Deluxe/USDX/blob/
 - Vocaluxe Source: [CSongLoader.cs](https://github.com/Vocaluxe/Vocaluxe/blob/develop/VocaluxeLib/Songs/CSongLoader.cs#L135)
 - Yass: [YassSong](https://github.com/SarutaSan72/Yass/blob/master/src/yass/YassSong.java), [YassNote](https://github.com/SarutaSan72/Yass/blob/master/src/yass/renderer/YassNote.java), [YassSongList](https://github.com/SarutaSan72/Yass/blob/master/src/yass/YassSongList.java#L3260)
 - UltraStar Play: [SongMetaBuilder.cs](https://github.com/UltraStar-Deluxe/Play/blob/master/UltraStar%20Play/Packages/playshared/Runtime/Song/Builder/SongMetaBuilder.cs#L11)
+- Performous Source: [song.cc](https://github.com/performous/performous/blob/master/game/song.cc)
