@@ -12,7 +12,9 @@ Encoding should be UTF8
     - [MP3](#mp3)
     - [BPM](#bpm)
     - [Notes](#notes)
-      - [Styles](#styles)
+      - [Note description](#note-description)
+      - [End of phrase](#end-of-phrase)
+      - [NoteTypes](#notetypes)
         - [Normal `:`](#normal-)
         - [Golden `*`](#golden-)
         - [Freestyle `F`](#freestyle-f)
@@ -61,6 +63,7 @@ Encoding should be UTF8
       - [ID](#id)
     - [UltraStar Play](#ultrastar-play)
       - [PreviewEnd](#previewend)
+      - [VOCALS](#vocals)
     - [Performous](#performous)
   - [Source](#source)
 
@@ -165,22 +168,32 @@ The UltraStar BPM information is a quarter of the real BPM.
 
 ### Notes
 
-The sing line is defined so that it has the `style`, `start_time`, `duration`, `pitch` and `lyric`.
+#### Note description
 
-- For the syles see [Styles](#styles).
-- The `start_time` and `duration` must be calculated against the `BPM`, `GAP` and `Relative`. Is a beat number.
-- The pitch describes the note as a number. 0 is the note C4
-- Lyric is the part word
+The sing line is defined so that it has the `NoteType`, `StartBeat`, `Lenght`, `Pitch` and `Text`.
 
-```
-style start_time duration pitch lyric
-```
+- For the syles see [NoteTypes](#noteTypes).
+- The `StartBeat` and `Lenght` must be calculated against the `BPM`, `GAP` and `Relative`. Is a beat number.
+- The pitch describes the note as a number. The number 0 corresponds to the note C4 and Midi Note 60.
+- Text is the part of the lyrics that is sung in this note.
 
 ```
-: 10 10 10 lyric
+NoteType StartBeat Lenght Pitch Text
 ```
 
-#### Styles
+```
+: 10 10 10 Text
+```
+
+#### End of phrase
+
+`-` represents the end of a phrase and how long it lasts by the `StartBeat`. The length is calculated against the `BPM`, `GAP` and `Relative`. Is a beat number.
+
+```
+- StartBeat
+```
+
+#### NoteTypes
 
 ##### Normal `:`
 
@@ -1143,6 +1156,26 @@ Todo: Unknown
 | Performous              | 1.2.0 (2022-03-27)               | :grey_question:    |
 | UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :heavy_check_mark: |
 | Yass                    | 2.4.3 (2023-03-18)               | :x:                |
+
+</details>
+
+#### VOCALS
+
+If the song at #MP3 is an instrumental version you can add an audio file containing the vocals here.
+
+<details><summary>App Support</summary>
+
+| App                     | Version                          | Supported       |
+| ----------------------- | -------------------------------- | --------------- |
+| UltraStar               | 1.0.2 (2012-09-28)               | :x:             |
+| UltraStar deluxe (USDX) | < 1.0.1a (2007-12-23)            | :x:             |
+| UltraStar deluxe (USDX) | > 2020.4.0 (2020-04-30)          | :x:             |
+| UltraStar deluxe CMD    | 1.0.1a r9.22 (2013-02-11)        | :x:             |
+| UltraStar World Party   | 21.02 (2021-02-07)               | :x:             |
+| Vocaluxe                | 0.41 (2020-03-10)                | :x:             |
+| Performous              | 1.2.0 (2022-03-27)               | :x:             |
+| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question: |
+| Yass                    | 2.4.3 (2023-03-18)               | :x:             |
 
 </details>
 
