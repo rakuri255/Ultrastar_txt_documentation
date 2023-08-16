@@ -2,6 +2,62 @@
 
 Encoding should be UTF8
 
+## Table of Contents
+
+- [Ultrastar txt Documentation](#ultrastar-txt-documentation)
+  - [Table of Contents](#table-of-contents)
+  - [:warning: Mandatory Attributes](#warning-mandatory-attributes)
+    - [TITLE](#title)
+    - [ARTIST](#artist)
+    - [MP3](#mp3)
+    - [BPM](#bpm)
+    - [Notes](#notes)
+      - [Styles](#styles)
+        - [Normal `:`](#normal-)
+      - [Golden `*`](#golden-)
+        - [Freestyle `F`](#freestyle-f)
+        - [Rap `R`](#rap-r)
+        - [Rap Golden `G`](#rap-golden-g)
+  - [:information\_source: Optional Attributes](#information_source-optional-attributes)
+    - [GAP](#gap)
+    - [COVER](#cover)
+    - [BACKGROUND](#background)
+    - [VIDEO](#video)
+    - [VIDEOGAP](#videogap)
+    - [GENRE](#genre)
+    - [EDITION](#edition)
+    - [CREATOR](#creator)
+    - [LANGUAGE](#language)
+    - [YEAR](#year)
+    - [START](#start)
+    - [END](#end)
+    - [RESOLUTION](#resolution)
+    - [NOTESGAP](#notesgap)
+    - [RELATIVE](#relative)
+    - [ENCODING](#encoding)
+    - [PREVIEWSTART](#previewstart)
+    - [MEDLEYSTARTBEAT](#medleystartbeat)
+    - [MEDLEYENDBEAT](#medleyendbeat)
+    - [CALCMEDLEY](#calcmedley)
+    - [DUETSINGERP1 \& DUETSINGERP2](#duetsingerp1--duetsingerp2)
+    - [P1 and P2](#p1-and-p2)
+  - [Special](#special)
+    - [UltraStar World Party](#ultrastar-world-party)
+      - [FIXER](#fixer)
+    - [Vocaluxe](#vocaluxe)
+      - [TITLE-ON-SORTING](#title-on-sorting)
+      - [ARTIST-ON-SORTING](#artist-on-sorting)
+      - [AUTHOR and AUTOR](#author-and-autor)
+      - [VERSION](#version)
+      - [SOURCE and YOUTUBE](#source-and-youtube)
+      - [LENGTH](#length)
+      - [ALBUM](#album)
+      - [COMMENT](#comment)
+      - [VIDEOASPECT](#videoaspect)
+      - [Preview](#preview)
+      - [ENDSHORT](#endshort)
+  - [Source](#source)
+
 ## :warning: Mandatory Attributes
 
 ### TITLE
@@ -105,7 +161,7 @@ The UltraStar BPM information is a quarter of the real BPM.
 
 The sing line is defined so that it has the `style`, `start_time`, `duration`, `pitch` and `lyric`.
 
-- For the syles see [Styles](#Styles).
+- For the syles see [Styles](#styles).
 - The `start_time` and `duration` must be calculated against the `BPM`, `GAP` and `Relative`. Is a beat number.
 - The pitch describes the note as a number. 0 is the note C4
 - Lyric is the part word
@@ -1036,9 +1092,6 @@ Todo: Unknown
 
 </details>
 
-- P1 and P2
-  - Same as DUETSINGERP1 and DUETSINGERP2
-
 Performous Source: [song.cc](https://github.com/performous/performous/blob/master/game/song.cc)
 
 - txtFileFolder
@@ -1075,6 +1128,6 @@ USDX Manager Source: [UFiles.pas](https://github.com/UltraStar-Deluxe/USDX/blob/
 
 ## Source
 
-USDX Source - [USong.pas](https://github.com/UltraStar-Deluxe/USDX/blob/master/src/base/USong.pas#L1246)
-US World Party Source: [USong.pas](https://github.com/ultrastares/ultrastar-worldparty/blob/master/src/base/USong.pas#L649)
-Vocaluxe Source: [CSongLoader.cs](https://github.com/Vocaluxe/Vocaluxe/blob/develop/VocaluxeLib/Songs/CSongLoader.cs#L135)
+* USDX Source - [USong.pas](https://github.com/UltraStar-Deluxe/USDX/blob/master/src/base/USong.pas#L1246)
+* US World Party Source: [USong.pas](https://github.com/ultrastares/ultrastar-worldparty/blob/master/src/base/USong.pas#L649)
+* Vocaluxe Source: [CSongLoader.cs](https://github.com/Vocaluxe/Vocaluxe/blob/develop/VocaluxeLib/Songs/CSongLoader.cs#L135)
