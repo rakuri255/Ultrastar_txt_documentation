@@ -1036,7 +1036,7 @@ If the song at #MP3 is an instrumental version you can add an audio file contain
 | UltraStar World Party   | 21.02 (2021-02-07)               | :x:             |
 | Vocaluxe                | 0.41 (2020-03-10)                | :x:             |
 | Performous              | 1.2.0 (2022-03-27)               | :x:             |
-| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :grey_question: |
+| UltraStar Play          | 0.9.0 (Pre-release) (2023-02-01) | :heavy_check_mark: |
 | Yass                    | 2.4.3 (2023-03-18)               | :x:             |
 
 </details>
