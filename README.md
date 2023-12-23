@@ -1,3 +1,11 @@
+> [!Deprecated]
+> This page is moved here:
+>
+> [WEB](https://usdx.eu/format/)
+>
+> [GitHub - UltraStar-Deluxe/format](https://github.com/UltraStar-Deluxe/format)
+>
+
 # Ultrastar txt Documentation
 
 Encoding should be UTF8
