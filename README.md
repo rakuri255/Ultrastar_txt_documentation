@@ -1,4 +1,4 @@
-> [!Deprecated]
+> [!WARNING]
 > This page is moved here:
 >
 > [WEB](https://usdx.eu/format/)
